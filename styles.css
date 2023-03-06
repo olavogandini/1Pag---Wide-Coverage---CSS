@@ -1,0 +1,141 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    margin: 47px 0px 163px 42px;
+    cursor: pointer;
+}
+
+.link-header{
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+}
+
+.button-header{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    background-color: #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: none;
+}
+
+.wide-logo{
+    height: 500px;
+    width: 595.18px;
+    margin-left: 121px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+h1{
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    margin-bottom: 47px;
+    letter-spacing: 0.596154px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    margin-bottom: 55px;
+    letter-spacing: 0.5px;
+}
+
+.link-section{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 112px;
+    height: 27px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1400px){
+    
+    header{
+        margin:0px ;
+    }
+
+    .link-header{
+        display: none;
+    }
+
+    .button-header{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;  
+        line-height: 18px;
+        position: absolute;
+        top: 17px;
+        right: 15px;
+    }
+
+    section{
+        display: block;
+        align-items: center;
+        margin: 0px;
+        position: absolute;
+        top: 124px;
+    }
+
+    h1{
+      width: 278px;
+      height: auto;
+      font-size: 30px;  
+      margin: 0px auto 26px;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    p{
+       width: auto;
+       height: auto;
+       font-size: 18px;
+       text-align: center;
+       margin: 0px 10% 26px; 
+       line-height: 33px;
+    }
+
+    .link-section{
+        width: 113px;
+        height: 27px;
+        margin: 0px auto;
+        display: block;
+    }
+
+    .wide-logo{
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin: 10px auto;
+        position: relative;
+        top: 490px;
+    }
+
+}
